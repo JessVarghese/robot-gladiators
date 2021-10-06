@@ -13,19 +13,13 @@ var enemyAttack = 12;
 
 // fight function
 var fight = function(enemyName) {
-  // Alert players that they are starting the round
+  // Repeat and execut as long as the enemy-robot is still alive
   window.alert("Welcome to Robot Gladiators!");
 
-console.log(enemyNames);
-console.log(enemyNames[0]);
-console.log(enemyNames[1]);
-console.log(enemyNames[2]);
-console.log(enemyNames.length);
+
 
 for (var i = 0; i < enemyNames.length; i++) {
-  console.log(enemyNames[i]);
-  console.log(i);
-  console.log(enemyNames[i] + " is at " + i + " index");
+  
   
 }
 
